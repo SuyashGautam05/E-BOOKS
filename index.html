@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-kitabein</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> E-kitabein </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#featured">Featured</a>
+            <a href="#arrivals">Arrivals</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>UPTO 75% OFF</h3>
+            <p style = "font-size: 180%"><b><i>Escape reality by diving in to the ultimate virtual realm of books - and hey, aren't books the best of friends?</b></i> </p>
+            <a href="#" class="btn">SHOP NOW</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="image/fault.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/prid.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/dorian.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/potter.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/valleys.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/die.jpg" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Featured books</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="" class="fas fa-search"></a>
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="/assets/harry potter.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Harry Potter</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ducimus!</p>
+                    <a href="pdfs/Harry_Potter_(www.ztcprep.com).pdf" download="" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="" class="fas fa-search"></a>
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="/assets/akabar birbal.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Akbar aur Birbal</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ducimus!</p>
+                    <a href="pdfs/Akbar and Birbal ( PDFDrive ).pdf" download="" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="" class="fas fa-search"></a>
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="/assets/spiderman.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Spiderman</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ducimus!</p>
+                    <a href="pdfs/spiderman-comic.pdf" download="" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="" class="fas fa-search"></a>
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="/assets/kurt vonnegut.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Slaughter house five</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ducimus!</p>
+                    <a href="pdfs/Slaughterhouse-five_ or, The children's crusade, a duty-dance with death ( PDFDrive ).pdf" download="" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="" class="fas fa-search"></a>
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="/assets/marketting hacks.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Marketting for business</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ducimus!</p>
+                    <a href="pdfs/Marketing Hacks For Businessowners.pdf" download="" class="btn">Download</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="" class="fas fa-search"></a>
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="/assets/rahul.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>How to get your client say yes!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ducimus!</p>
+                    <a href="pdfs/How to get your clients to say YES automatically .pdf" download="" class="btn">Download</a>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+
+<!-- arrivals section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> <span>Programming Books</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/dsa pythin.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>DSA with python</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a style="font-size: 1.2rem;" href="pdfs/Data Structure and Algorithmic Thinking with Python  Data Structure and Algorithmic Puzzles ( PDFDrive ).pdf" download="" class="btn">Download</a>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/dc and networking.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Data communications</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a style="font-size: 1.2rem;" href="pdfs/Data Communications and Networking By Behrouz A.Forouzan.pdf" download="" class="btn">Download</a>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/java for beg.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Java for beginners</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a style="font-size: 1.2rem;" href="pdfs/Java for Absolute Beginners_ Learn to Program the Fundamentals the Java 9+ Way ( PDFDrive ).pdf" download="" class="btn">Download</a>
+
+                </div>
+            </div>
+
+           
+
+        </div>
+
+    </div>
+
+    <h1 style="margin-top: 5vh;" class="heading"> <span>Best of sales</span> </h1>
+
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+          
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/the surefire way.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Get online sale</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a style="font-size: 1.2rem;" href="pdfs/Get Your First Online Sale.pdf" download="" class="btn">Download</a>
+
+                </div>
+            </div>
+
+            
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/negotation skilla.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Negotation Skills</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a style="font-size: 1.2rem;" href="pdfs/Negotiation Skills By Rahul Bhatnagar.pdf" download="" class="btn">Download</a>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/high income skills.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>High income skills</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a style="font-size: 1.2rem;" href="pdfs/7+ High Income Skills.pdf" download="" class="btn">Download</a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <h1 style="margin-top: 5vh;" class="heading"> <span>Top Comics</span> </h1>
+
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+          
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/batman.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Batman</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a style="font-size: 1.2rem;" href="pdfs/DC Marvel Comics - Batman & Spiderman ( PDFDrive ).pdf" download="" class="btn">Download</a>
+
+                </div>
+            </div>
+
+            
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/iron man.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Iron man</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a style="font-size: 1.2rem;" href="pdfs/Iron Man and Sub Mariner.pdf" download="" class="btn">Download</a>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/spiderman.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Spiderman</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a style="font-size: 1.2rem;" href="pdfs/spiderman-comic.pdf" download="" class="btn">Download</a>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="assets/wolverine.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Wolverine</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a style="font-size: 1.2rem;" href="pdfs/Wolverine - Old Man Logan.pdf" download="" class="btn">Download</a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- arrivals section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="content">
+        <h3 style="font-size: 300%">DEAL OF THE DAY !!!</h3>
+        <h1>upto 50% off</h1>
+        <p style="font-size: 200%">Check out today's hottest deals</p>
+        <a href="#" class="btn">SHOP NOW</a>
+    </div>
+
+    <div class="image">
+        <img src="image/deal-img.jpg" alt="">
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 style="margin-top: -10vh;" class="heading"> <span>our blogs</span> </h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Truth hurts. Soz, Edmund</h3>
+                    <p>"you ever have a piece of bread that's so good you understand the plot of les miserables", says a suitor from the carribean shores. "Opposite energy from tasting turkish delights for the first time and wondering what was Edmund on", says another suitor from atlantis</p>
+                    <a href="#" class="btn">READ MORE</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3 style="font-size: 180%">Charles Dickens - Regina George of the modern lit world</h3>
+                    <p> forever thinking about how Hans Christian Andersen adored Charles Dickens and wrote him passionate letters and wept with joy when they hung out, and how Dickens made him the slimy, odious villain in one of his novels who looks like demon from hell.</p>
+                    <a href="#" class="btn">READ MORE</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Be like Iceland</h3>
+                    <p>In Iceland, books are exchanged on Christmas Eve, then the tradition is to spend the rest of the night reading and eating chocolates. That sounds absolutely dreamy. </p>
+                    <a href="#" class="btn">READ MORE</a>
+                </div>
+            </div>
+
+         
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Abandon all hope, ye who shall enter</h3>
+                    <p>One thing I never understand is how normal people are unaffected by movies or books - I mean when they watch a movie or finish a book, they say "well this was a good movie/book" and they move on while I have an existential crisis and question the whole universe.</p>
+                    <a href="#" class="btn">READ MORE</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+<!-- newsletter section starts -->
+
+<section class="newsletter">
+
+    <form action="">
+        <h3>Subscribe for latest updates</h3>
+        <input style="border-radius: 20px;" type="email" name="" placeholder="Enter your email" id="" class="box">
+        <input style="border-radius: 15px;" type="submit" value="SUBSCRIBE" class="btn">
+    </form>
+
+</section>
+
+<!-- newsletter section ends -->
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> India</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> UK</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Russia </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Australia</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Japan </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Arrivals </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Reviews </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Privacy policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Payment method </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> barda@gmail.com</a>
+            <img src="image/worldmap.png" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-tumblr"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit"> copyright@2023 | all rights reserved | </div>
+
+</section>
+
+
+<!-- footer section ends -->
+
+<!-- loader  -->
+
+<div class="loader-container">
+    <img src="image/loader-img.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
