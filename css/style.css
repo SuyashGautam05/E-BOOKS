@@ -653,19 +653,22 @@ section{
     padding:1rem 0;
 }
 
-.footer .box-container .box a{
+.footer .box-container .box a,.footer .box-container .box p{
     display: block;
     font-size: 1.4rem;
     color:var(--light-color);
     padding:1rem 0;
 }
 
-.footer .box-container .box a i{
+.footer .box-container .box a i,.footer .box-container .box p i{
     color:var(--green);
     padding-right: .5rem;
 }
 
 .footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+.footer .box-container .box p:hover i{
     padding-right: 2rem;
 }
 

@@ -158,3 +158,9 @@ var swiper = new Swiper(".blogs-slider", {
     },
   },
 });
+const dono=document.querySelectorAll(".do-no")
+dono.addEventListener("click",function(e){
+e.preventDefault();
+
+
+})
